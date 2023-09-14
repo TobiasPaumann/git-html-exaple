@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Startseite</a>
+        <a href="meals.html">Menü & Best Seller</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+
+    <h1>Kontaktaufnahme</h1>
+    <label for="Name">Name: </label>
+    <input type="text" name="" id="Name">
+    <label for="Address">Adresse: </label>
+    <input type="text" name="" id="Address">
+    <label for="Message">Nachricht: </label>
+    <input type="text" id="Message">
+    <button id="Button" onclick="CheckMail(document.getElementById('Address').value)">Einsenden</button>
+    <div id="ContactMessage"></div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        HTL-WY
+        Im Vogelsang 8
+    </footer>
+</body>
+</html>
