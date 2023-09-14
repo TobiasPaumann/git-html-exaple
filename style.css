@@ -1,5 +1,5 @@
-main{
-    background-color: rgb(23, 23, 185);
+body{
+    background-color: rgb(217, 227, 255);
 }    
 h1{
     color: rgb(72, 72, 255);
@@ -17,4 +17,19 @@ a{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 100px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+
+}
+.kebap{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+table{
+    width: 80%;
+}
+th,tr,td{
+    text-align: center;
 }
