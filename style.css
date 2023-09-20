@@ -3,6 +3,7 @@ body{
 }    
 h1{
     color: rgb(72, 72, 255);
+    font-size: medium;
 }
 nav{
     width: 50%;
